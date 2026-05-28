@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Casablanca</item>
+        <item>Marrakech</item>
+        <item>Fès</item>
+        <item>Tanger</item>
+        <item>Agadir</item>
+    </string-array>
+    <color name="background">#F4F7F5</color>
+    <color name="green">#1B7F3A</color>
+    <color name="green_dark">#0B5D24</color>
+    <color name="line">#DDE5DD</color>
+    <color name="muted">#647067</color>
+    <color name="panel">#FFFFFF</color>
+    <color name="text">#1F2A24</color>
+    <string name="app_name">projetws</string>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+    <style name="input">
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+    <style name="text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textColor">@color/green_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
